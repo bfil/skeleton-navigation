@@ -1,4 +1,5 @@
 import {Router, RouterConfiguration} from 'aurelia-router';
+import * as moment from 'moment';
 
 export class App {
   router: Router;
@@ -12,5 +13,7 @@ export class App {
     ]);
 
     this.router = router;
+
+    moment();
   }
 }
